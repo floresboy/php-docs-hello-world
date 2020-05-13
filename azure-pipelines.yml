@@ -13,7 +13,7 @@ variables:
   phpVersion: 7.3
 
 # the name of the service connection that you created above
-  serviceConnectionToAzure: ask
+  serviceConnectionToAzure: aks
 
 
 steps:
