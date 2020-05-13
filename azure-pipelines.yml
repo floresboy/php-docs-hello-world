@@ -37,6 +37,10 @@ steps:
 
 # add these as the last steps (below all the other `task` items under `steps`)
 # to deploy to your app service
+# https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/?view=azure-devops
+
+# https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-rm-web-app?view=azure-devops
+
 - task: ArchiveFiles@1
   displayName: Archive files
   inputs:
